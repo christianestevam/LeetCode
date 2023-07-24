@@ -1,5 +1,5 @@
 /*
- * Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
+Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
 
 '?' Matches any single character.
 '*' Matches any sequence of characters (including the empty sequence).
@@ -26,8 +26,8 @@ Explanation: '?' matches 'c', but the second letter is 'a', which does not match
  */
 
 
- import java.util.*;
 
+ 
 class Solution {
     public boolean isMatch(String s, String p) {
         int sLen = s.length();

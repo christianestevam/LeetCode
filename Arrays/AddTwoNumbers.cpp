@@ -27,8 +27,7 @@ Output: [8,9,9,9,0,0,0,1]
 
 #include <iostream>
 #include <vector>
-#include <list>
-#include "ListNode.h"
+
 
 struct ListNode {
       int val;
